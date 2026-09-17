@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f8dce3">
+<title>A Little Date For You ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient"><i></i><i></i><i></i><i></i></div>
+<div class="petal-layer" id="petals"></div>
+<main>
+
+<section class="screen opening" id="opening">
+  <div class="story-panel opening-panel">
+    <div class="top">A SPECIAL INVITATION</div>
+    <div class="opening-photo-wrap">
+      <div class="personal-photo">
+        <div class="photo-frame"><img src="sayang-photo.jpg" alt="A little photo for you"></div>
+        <span>for my favourite person ♡</span>
+      </div>
+    </div>
+    <div class="opening-copy">
+      <p class="tiny-label">A LITTLE PLAN</p>
+      <h1>For You,<br><em>Sayang ♡</em></h1>
+      <p>some days are just better<br>when you're in them.</p>
+      <div class="ornament">♡</div>
+      <p class="hand">I have a question...</p>
+    </div>
+    <button class="primary" id="start">open this ♡</button>
+    <small class="scroll-note">a little something made for you</small>
+  </div>
+</section>
+
+<section class="screen hidden" id="question">
+  <div class="story-panel question-panel">
+    <div class="progress">01 / 05</div>
+    <div class="ribbon">A SIMPLE QUESTION</div>
+    <div class="flower-corner">✿</div>
+    <p class="eyebrow">CHELLOW, BE HONEST...</p>
+    <h2>Will you go on<br><em>a date with me?</em></h2>
+    <div class="heart-line">♡</div>
+    <p class="copy">Just you, me, and a little Saturday adventure.<br><span class="tiny-romance">(and yes, I did put effort into this)</span></p>
+    <div class="choice" id="choice"><button class="yes" id="yes">YES ♡</button><button class="no" id="no">NO</button></div>
+    <small id="hint">choose wisely hehe</small>
+    <p class="bottom-quote">“Some questions don't really have a right answer...<br>because my heart already knows.”</p>
+  </div>
+</section>
+
+<section class="screen hidden" id="yesScreen">
+  <div class="story-panel yes-panel">
+    <div class="progress">02 / 05</div>
+    <div class="soft-flowers">♡ &nbsp; ✿ &nbsp; ♡</div>
+    <p class="eyebrow">I KNEW IT</p>
+    <h2 class="big-yes">Sayang,<br>the answer is<br><em>obviously YES ♡</em></h2>
+    <div class="yes-divider">♡</div>
+    <p class="copy yes-copy">Thank you for always saying yes to the little adventures in life with me. Now let me show you what I've planned.</p>
+    <div class="countdown"><p>OUR LITTLE ADVENTURE STARTS IN</p><div class="numbers"><b id="days">00</b><b id="hours">00</b><b id="minutes">00</b><b id="seconds">00</b></div><div class="labels"><span>DAYS</span><span>HOURS</span><span>MIN</span><span>SEC</span></div><small>SATURDAY · 19 SEPTEMBER 2026 · 11:45 AM ARRIVAL</small></div>
+    <button class="secondary" id="plan">let me show you the plan →</button>
+  </div>
+</section>
+
+<section class="screen hidden" id="planScreen">
+  <div class="story-panel plan-panel">
+    <div class="progress">03 / 05</div>
+    <p class="eyebrow">THE PLAN</p>
+    <h2>Somewhere in the middle.<br><em>Just us.</em></h2>
+    <div class="ornament">♡</div>
+    <div class="love-letter">
+      <p>I don't really care where or when we spend time together, but I want to spend it <em>with you.</em></p>
+      <p>So, as overstimulating as it was last night when hearing all my suggestions, I've decided this. Somewhere we meet in the middle — not too stressful or far away, but still able to make each other yearn for more.</p>
+      <p>It's cute if you think you have a say or choice in this manner, but let's just keep it like you have one, okay? ♡</p>
+      <div class="letter-sign">same chaos · less stress · more us ♡</div>
+    </div>
+
+    <div class="plan-list">
+      <article><span>01</span><i>🚗</i><div><small>MORNING</small><h3>I'll pick you up ♡</h3><p>Once you're done getting ready, I'll come get you. No need to rush — just be cute and be ready.</p></div></article>
+      <article><span>02</span><i>♡</i><div><small>11:45 AM</small><h3>SS15 adventure begins</h3><p>We'll aim to reach Fuwami Land around 11:45 AM, just before it opens at 12 PM. If there's a queue, we eat first. Problem solved.</p></div></article>
+      <article class="squishy"><span>03</span><i>☁</i><div><small>SQUISHYYYY TIME</small><h3>Fuwami Land</h3><p>We browse, squeeze everything, and admire the silly little things that somehow become impossible to leave behind.</p><img class="mini-photo" src="squishy-art2.png" alt="Cute squishies"></div></article>
+      <article><span>04</span><i>🧸</i><div><small>AFTER</small><h3>Nimsquishy</h3><p>Then we survey, compare, and maybe find a few more squishies worth taking home.</p></div></article>
+      <article><span>05</span><i>♡</i><div><small>THE IMPORTANT RULE</small><h3>Our squishy budget</h3><p>We agree on a number that makes both of us happy. Cute things are allowed. Financial regret is not.</p></div></article>
+    </div>
+
+    <div class="main-event-tease">
+      <small>06 · THE MAIN EVENT</small>
+      <h3>And then...</h3>
+      <p>we enter another world.</p>
+      <button class="secondary" id="split">take me there →</button>
+    </div>
+  </div>
+</section>
+
+<section class="screen hidden" id="splitScreen">
+  <div class="split-panel">
+    <div class="split-overlay"></div>
+    <div class="split-content">
+      <div class="progress">04 / 05</div>
+      <p class="split-kicker">THE MAIN EVENT</p>
+      <h2>SPLIT<br><em>FICTION</em></h2>
+      <div class="split-rule">✦ &nbsp; ♡ &nbsp; ✦</div>
+      <p class="split-tagline">TWO WORLDS. ONE STORY.<br><strong>US.</strong></p>
+      <p class="split-body">A little chaos. A little adventure. A ridiculous amount of things to figure out — together.</p>
+      <p class="dramatic">No leaving each other behind.<br>No abandoning the mission.<br>We fight together.<br>We solve together.<br><strong>We make the story together.</strong> ♡</p>
+      <div class="split-stamp">SAME TEAM<br>EVERY UNIVERSE</div>
+      <button class="secondary split-button" id="final">okay... one last thing →</button>
+    </div>
+  </div>
+</section>
+
+<section class="screen hidden" id="finalScreen">
+  <div class="story-panel final-panel">
+    <div class="progress">05 / 05</div>
+    <div class="sparkles">✦ ♡ ✦</div>
+    <p class="eyebrow">ONE LAST THING</p>
+    <h2>I don't need a<br><em>perfect date.</em></h2>
+    <p class="copy final-copy">I just want a day where we can laugh, play, eat, look at silly little squishies, get dramatically invested in a game, and make another memory together.</p>
+    <div class="final-rose"><img src="rose-bouquet.png" alt="Roses"></div>
+    <div class="quiet-note">free place · quiet time · LEGO · arts & crafts · just us ♡</div>
+
+    <div class="feedback">
+      <p class="feedback-title">so... what do you think, sayang? ♡</p>
+      <p class="feedback-copy">Some effort was put into this. It's been some time since I did something like this for you, so lemme hear it — how much did you cry, “awwh”-ed, appreciate it, or secretly want to change something?</p>
+      <textarea id="thoughts" placeholder="tell me everything... ♡" maxlength="1200"></textarea>
+      <button class="primary share" id="shareThoughts">send it to me ♡</button>
+      <small id="shareStatus"></small>
+    </div>
+
+    <div class="note"><p>SATURDAY · 19 SEPTEMBER 2026</p><strong>See you soon, sayang. ♡</strong></div>
+    <div class="signature">your person</div>
+    <button class="secondary" id="replay">read it again ↻</button>
+  </div>
+</section>
+
+</main>
+<script src="script.js?v=20260917b"></script>
+</body>
+</html>
